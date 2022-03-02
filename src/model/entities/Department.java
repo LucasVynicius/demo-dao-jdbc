@@ -13,10 +13,18 @@ public class Department implements Serializable {
 		
 	}
 
-	public Department() {
+	public Department(Integer id, String name) {
 		
 		this.id = id;
 		this.name = name;
+	}
+
+	public Department(int i, Object object) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Department() {
+		// TODO Auto-generated constructor stub
 	}
 
 	public Integer getId() {
